@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F7F7; /* Background color from Color Hunt */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 50%; /* Responsive image */
+    border-radius: 50%; /* Rounded corners */
+  }
+  
+  .hobbies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobbies-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hobbies-list img {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .contact-link img {
+    width: 30px; /* Adjust size of the icon */
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .contact-link span {
+    vertical-align: middle;
+  }
+  
