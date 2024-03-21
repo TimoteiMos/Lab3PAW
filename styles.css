@@ -1,46 +1,70 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F7F7F7; /* Background color from Color Hunt */
-    color: #333; /* Text color */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .profile-pic {
-    width: 50%; /* Responsive image */
-    border-radius: 50%; /* Rounded corners */
-  }
-  
-  .hobbies-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .hobbies-list li {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .hobbies-list img {
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .contact-link img {
-    width: 30px; /* Adjust size of the icon */
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .contact-link span {
-    vertical-align: middle;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #FFF; /* Improved contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 10px; /* Rounded corners for the container */
+}
+
+.header h1 {
+  color: #FFF;
+}
+
+.profile-pic {
+  max-width: 100%; /* Responsive image */
+  height: auto;
+  border-radius: 50%; /* Rounded corners */
+  margin-top: 20px;
+  border: 5px solid #fff; /* Profile picture border */
+}
+
+.hobbies-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.hobbies-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hobbies-list img {
+  margin-right: 10px;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+  color: #FFF; /* Keep the text color consistent */
+}
+
+.contact-link img {
+  width: 30px;
+  margin-right: 10px;
+}
+.hobbies-list img {
+  width: 50px; /* Adjust as needed to fit your design */
+  height: 50px; /* Adjust as needed to maintain aspect ratio or desired appearance */
+  object-fit: cover; /* This will cover the area of the box without distorting the aspect ratio */
+  border-radius: 50%; /* Optional: Adds rounded corners to the images */
+  margin-right: 10px;
+}
+
+
+p a {
+  color: #FFD700; /* Golden color for links for better visibility */
+}
